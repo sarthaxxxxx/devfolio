@@ -3,73 +3,90 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Sarthak Kumar Maharana',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Sarthak Maharana | Grad @ USC`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `MS in EE @ USC ! Signal and Image Processing`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/sarthaxxxxx`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/sarthak-kumar-maharana-1ab04015b/`,
+    //Optional: Add resume section
+    resume:
+      'https://drive.google.com/file/d/1h8FdHloFiau9PMmyb6ydAbBTY0PLxLrq/view?usp=sharing',
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Hello! I'm Sarthak, an incoming grad student at the University of Southern California, with my major being Electrical Engineering and concentration, Signal and Image Processing. I also hold a BTech in Electrical and Electronics Engineering from IIIT-Bhubaneswar, India. Academically oriented as I can be, I'm honing my skills as a young researcher in the fields of my choice.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
+    publications: [
       {
-        name: 'Devfolio',
+        name: 'IEEE ICASSP 2021',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Sarthak Kumar Maharana, Aravind Illa, Renuka Mannem, Yamini Belur, Preetie Shetty, Veeramani Preethish Kumar, Seena Vengalil, Kiran Polavarapu, Nalini Atchayaram, and Prasanta Kumar Ghosh, "Acoustic-to-articulatory inversion of dysarthric speech by using cross-corpus acoustic-articulatory data," in IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021, pp. 6458-6462.',
+        link:
+          'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9413625',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'IEEE ICSSIT 2019',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Jayanta  kumar  Sahu, Sudhakar  Sahu, JP  Patra, Sarthak  Kumar Maharana, and Bhagabat Panda, “Harmonics analysis of a  PV  integrated  hysteresis  current  control  inverter connected with grid and without grid,” in 2019  International Conference on Smart Systems and Inventive Technology (ICSSIT). IEEE, 2019, pp. 1154–1157.',
+        link:
+          'https://ieeexplore.ieee.org/abstract/document/8987864?casa_token=7_WE9PSHEQgAAAAA:u33qxm_R4UBdQKvzrGI_5SLFlHQdSpnc0btOco8uOqqpVlh2rGPIebLYVGy3imfKoAhCdOqD3tOo',
       },
       {
-        name: 'Another Cool Project',
+        name: 'IJRTER',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Sarthak Kumar Maharana, Debani Prasad Mishra, and Antesh, ”Cloudiness Expulsion of a Solitary Image using Dim Channel Earlier,”Inter-national Journal of Recent Trends in Engineering and Research, vol. 5, no. 11, pp. 30-38, 2019.',
+        link:
+          'https://www.ijrter.com/papers/volume-5/issue-11/cloudiness-expulsion-of-a-solitary-image-using-dim-channel-earlier.pdf',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'National University of Singapore',
+        description: 'Part-time research assistant, July 2020 - Present',
+        //link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Indian Institute of Science, Bangalore',
+        description:
+          'Student researcher / Bachelors thesis, December 2019 - September 2020',
+        //link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Indian Institute of Technology, Kharagpur',
+        description: 'Summer research intern, May 2019 - July 2019',
+        //link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'National Institute of Technology, Surathkal',
+        description: 'Research assistant, December 2018 - March 2019',
+      },
+      {
+        name: 'LRDE, DRDO, Bangalore',
+        description: 'Summer intern, May 2018 - July 2018',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+        name: 'Languages',
+        description: 'Python, MATLAB, Shell Scripting, JAVA, C',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Libraries',
+        description: 'PyTorch, Keras, TensorFlow, OpenCV, scikit-learn',
       },
       {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        name: 'Others',
+        description: 'Git, LaTeX',
+      },
+      {
+        name: 'OS',
+        description: 'Unix, Windows',
       },
     ],
   },
